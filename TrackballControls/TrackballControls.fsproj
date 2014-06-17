@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Main.fs" />
     <None Include="packages.config" />
+    <EmbeddedResource Include="TrackballControls.js" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
