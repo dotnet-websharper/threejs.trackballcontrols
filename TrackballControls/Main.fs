@@ -23,7 +23,7 @@ module Definition =
                 "height" =? T<int>
             ]
 
-        Class "TrackballControls"
+        Class "THREE.TrackballControls"
         |=> Inherits T<THREE.EventDispatcher>
         |+> [
             Constructor (T<THREE.Object3D>?``object`` * !? T<Node>?domElement)
