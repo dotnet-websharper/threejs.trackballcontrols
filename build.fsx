@@ -9,13 +9,15 @@ let bt =
         )
 
 let main =
-    bt.WebSharper.Extension("TrackballControls")
-        .SourcesFromProject()
+    (bt.WebSharper.Extension("IntelliFactory.WebSharper.ThreeJs.TrackballControls")
+    |> FSharpConfig.BaseDir.Custom "TrackballControls")
+        .SourcesFromProject("TrackballControls.fsproj")
         .Embed(["TrackballControls.js"])
 
 let test =
-    bt.WebSharper.BundleWebsite("Tests")
-        .SourcesFromProject()
+    (bt.WebSharper.BundleWebsite("IntelliFactory.WebSharper.ThreeJs.TrackballControls.Tests")
+    |> FSharpConfig.BaseDir.Custom "Tests")
+        .SourcesFromProject("Tests.fsproj")
         .References(fun r -> [r.Project main])
 
 bt.Solution [
