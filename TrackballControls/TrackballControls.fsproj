@@ -63,7 +63,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="ThreeJs">
-      <HintPath>..\..\ThreeJs\ThreeJs\bin\Debug\ThreeJs.dll</HintPath>
+      <HintPath>..\packages\WebSharper.ThreeJs.2.5.4.7\lib\net40\ThreeJs.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
