@@ -8,7 +8,7 @@
     <WebSharperProject>InterfaceGenerator</WebSharperProject>
     <Name>TrackballControls</Name>
     <RootNamespace>TrackballControls</RootNamespace>
-    <AssemblyName>TrackballControls</AssemblyName>
+    <AssemblyName>IntelliFactory.WebSharper.TrackballControls</AssemblyName>
     <NuGetPackageImportStamp>6aae4e42</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
