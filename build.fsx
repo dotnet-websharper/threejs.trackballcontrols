@@ -14,15 +14,15 @@ let main =
         .SourcesFromProject("TrackballControls.fsproj")
         .Embed(["TrackballControls.js"])
 
-let test =
-    (bt.WebSharper.BundleWebsite("IntelliFactory.WebSharper.ThreeJs.TrackballControls.Tests")
-    |> FSharpConfig.BaseDir.Custom "Tests")
-        .SourcesFromProject("Tests.fsproj")
-        .References(fun r -> [r.Project main])
+//let test =
+//    (bt.WebSharper.BundleWebsite("IntelliFactory.WebSharper.ThreeJs.TrackballControls.Tests")
+//    |> FSharpConfig.BaseDir.Custom "Tests")
+//        .SourcesFromProject("Tests.fsproj")
+//        .References(fun r -> [r.Project main])
 
 bt.Solution [
     main
-    test
+//    test
 
     bt.NuGet.CreatePackage()
         .Configure(fun c ->
