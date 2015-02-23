@@ -6,9 +6,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{217724c6-483b-44fe-bc28-d42db4e12230}</ProjectGuid>
     <WebSharperProject>InterfaceGenerator</WebSharperProject>
-    <Name>TrackballControls</Name>
-    <RootNamespace>TrackballControls</RootNamespace>
-    <AssemblyName>IntelliFactory.WebSharper.TrackballControls</AssemblyName>
+    <Name>WebSharper.ThreeJs.TrackballControls</Name>
+    <RootNamespace>$(Name)</RootNamespace>
+    <AssemblyName>$(Name)</AssemblyName>
     <NuGetPackageImportStamp>6aae4e42</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -45,25 +45,9 @@
     </Otherwise>
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
-  <Import Project="..\packages\WebSharper.2.5.114.49\build\WebSharper.targets" Condition="Exists('..\packages\WebSharper.2.5.114.49\build\WebSharper.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\WebSharper.2.5.114.49\build\WebSharper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WebSharper.2.5.114.49\build\WebSharper.targets'))" />
-  </Target>
+  <Import Project="../build/net40/$(Main).proj" />
   <ItemGroup>
     <Compile Include="Main.fs" />
-    <None Include="packages.config" />
     <EmbeddedResource Include="TrackballControls.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="mscorlib" />
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
-    <Reference Include="ThreeJs">
-      <HintPath>..\packages\WebSharper.ThreeJs.2.5.4.7\lib\net40\ThreeJs.dll</HintPath>
-    </Reference>
   </ItemGroup>
 </Project>

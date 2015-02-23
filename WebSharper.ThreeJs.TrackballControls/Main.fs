@@ -1,22 +1,22 @@
 namespace TrackballControls
 
-open IntelliFactory.WebSharper.InterfaceGenerator
+open WebSharper.InterfaceGenerator
 
 module Definition =
-    open IntelliFactory.WebSharper.ThreeJs
-    open IntelliFactory.WebSharper.JavaScript.Dom
-    open IntelliFactory.WebSharper.InterfaceGenerator.Type
+    open WebSharper.ThreeJs
+    open WebSharper.JavaScript.Dom
+    open WebSharper.InterfaceGenerator.Type
 
     let O = T<unit>
 
     let TrackballControlsResource =
         Resource "TrackballControls" "TrackballControls.js"
-        |> RequiresExternal [T<IntelliFactory.WebSharper.ThreeJs.Resources.Js>]
+        |> RequiresExternal [T<WebSharper.ThreeJs.Resources.Js>]
 
     let TrackballControls =
         let ScreenData =
             Class "ScreenData"
-            |+> Protocol [
+            |+> Instance [
                 "left"   =? T<int>
                 "top"    =? T<int>
                 "width"  =? T<int>
@@ -25,10 +25,10 @@ module Definition =
 
         Class "THREE.TrackballControls"
         |=> Inherits T<THREE.EventDispatcher>
-        |+> [
+        |+> Static [
             Constructor (T<THREE.Object3D>?``object`` * !? T<Node>?domElement)
         ]
-        |+> Protocol [
+        |+> Instance [
             "object"               =? T<THREE.Object3D>
             "domElement"           =? T<Node>
             "enabled"              =@ T<bool>
@@ -63,10 +63,10 @@ module Definition =
 
     let Assembly =
         Assembly [
-            Namespace "IntelliFactory.WebSharper.ThreeJs.THREE" [
+            Namespace "WebSharper.ThreeJs.THREE" [
                  TrackballControls
             ]
-            Namespace "IntelliFactory.WebSharper.ThreeJs.Resources" [
+            Namespace "WebSharper.ThreeJs.Resources" [
                  TrackballControlsResource
             ]
         ]

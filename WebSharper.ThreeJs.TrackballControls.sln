@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TrackballControls", "TrackballControls\TrackballControls.fsproj", "{217724C6-483B-44FE-BC28-D42DB4E12230}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.ThreeJs.TrackballControls", "WebSharper.ThreeJs.TrackballControls\WebSharper.ThreeJs.TrackballControls.fsproj", "{217724C6-483B-44FE-BC28-D42DB4E12230}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Tests\Tests.fsproj", "{74DA23DF-D4A7-428D-9BA3-5DD10C526793}"
 EndProject
