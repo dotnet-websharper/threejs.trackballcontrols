@@ -3,7 +3,7 @@ open IntelliFactory.Build
 
 let bt =
     BuildTool().PackageId("WebSharper.ThreeJs.TrackballControls")
-        .VersionFrom("WebSharper")
+        .VersionFrom("WebSharper", versionSpec = "(,4.0)")
         .WithFSharpVersion(FSharpVersion.FSharp30)
         .WithFramework(fun fw -> fw.Net40)
 
@@ -12,7 +12,7 @@ let main =
         .SourcesFromProject()
         .Embed(["TrackballControls.js"])
         .References(fun r ->
-            [r.NuGet("WebSharper.ThreeJs").ForceFoundVersion().Reference()]
+            [r.NuGet("WebSharper.ThreeJs").Version("(,4.0)").ForceFoundVersion().Reference()]
         )
 
 //let test =

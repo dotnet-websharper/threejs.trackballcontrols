@@ -2,17 +2,17 @@
 open IntelliFactory.Build
 
 let bt =
-    BuildTool().PackageId("Zafir.ThreeJs.TrackballControls")
-        .VersionFrom("Zafir")
+    BuildTool().PackageId("WebSharper.ThreeJs.TrackballControls")
+        .VersionFrom("WebSharper")
         .WithFSharpVersion(FSharpVersion.FSharp30)
         .WithFramework(fun fw -> fw.Net40)
 
 let main =
-    bt.Zafir.Extension("WebSharper.ThreeJs.TrackballControls")
+    bt.WebSharper4.Extension("WebSharper.ThreeJs.TrackballControls")
         .SourcesFromProject()
         .Embed(["TrackballControls.js"])
         .References(fun r ->
-            [r.NuGet("Zafir.ThreeJs").Latest(true).ForceFoundVersion().Reference()]
+            [r.NuGet("WebSharper.ThreeJs").Latest(true).ForceFoundVersion().Reference()]
         )
 
 //let test =
@@ -28,7 +28,7 @@ bt.Solution [
     bt.NuGet.CreatePackage()
         .Configure(fun c ->
             { c with
-                Title = Some "Zafir.ThreeJs.TrackballControls"
+                Title = Some "WebSharper.ThreeJs.TrackballControls"
                 LicenseUrl = Some "http://websharper.com/licensing"
                 ProjectUrl = Some "https://bitbucket.org/intellifactory/websharper.threejs.trackballcontrols"
                 Description = "WebSharper Extensions for ThreeJs.TrackballControls 20140320"
