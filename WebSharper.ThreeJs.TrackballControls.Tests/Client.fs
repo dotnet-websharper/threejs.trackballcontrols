@@ -1,16 +1,17 @@
 namespace Tests
 
-open IntelliFactory.WebSharper
+open WebSharper
 
 [<JavaScript>]
 module Client =
-    open IntelliFactory.WebSharper.ThreeJs
-    open IntelliFactory.WebSharper.JQuery
-    open IntelliFactory.WebSharper.Dom
+    open WebSharper.ThreeJs
+    open WebSharper.JQuery
+    open WebSharper.JavaScript
 
     [<Inline "requestAnimationFrame($0)">]
     let render (frame : unit -> unit) = X<unit>
 
+    [<SPAEntryPoint>]
     let Main =
         let renderer = new THREE.WebGLRenderer(
                            WebGLRendererConfiguration(

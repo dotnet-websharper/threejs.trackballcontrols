@@ -5,3 +5,6 @@ obj/*
 packages/*
 Content/*
 build/*
+.fake/
+paket-files/
+.vscode/
