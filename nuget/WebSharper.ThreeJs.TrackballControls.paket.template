@@ -1,0 +1,20 @@
+type file
+id WebSharper.ThreeJs.TrackballControls
+authors
+    IntelliFactory
+owners
+    IntelliFactory
+licenseUrl http://websharper.com/licensing
+projectUrl https://bitbucket.org/intellifactory/websharper.threejs.trackballcontrols
+description
+    WebSharper Extensions for ThreeJs.TrackballControls 20140320
+tags
+    Web JavaScript F# C#
+files
+    ../WebSharper.ThreeJs.TrackballControls/bin/Release/net461/WebSharper.ThreeJs.TrackballControls.dll ==> lib/net461
+    ../WebSharper.ThreeJs.TrackballControls/bin/Release/net461/WebSharper.ThreeJs.TrackballControls.xml ==> lib/net461
+    ../WebSharper.ThreeJs.TrackballControls/bin/Release/netstandard2.0/WebSharper.ThreeJs.TrackballControls.dll ==> lib/netstandard2.0
+    ../WebSharper.ThreeJs.TrackballControls/bin/Release/netstandard2.0/WebSharper.ThreeJs.TrackballControls.xml ==> lib/netstandard2.0
+dependencies
+        WebSharper ~> 4.5.0
+        WebSharper.ThreeJs ~> 4.5.0
