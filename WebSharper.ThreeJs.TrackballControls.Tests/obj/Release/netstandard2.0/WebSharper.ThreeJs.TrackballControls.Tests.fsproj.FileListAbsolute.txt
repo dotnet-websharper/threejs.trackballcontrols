@@ -5,7 +5,7 @@ C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.Trackbal
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls.Tests\bin\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.dll
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls.Tests\bin\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.pdb
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls.Tests\bin\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.xml
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls.Tests\obj\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.Tests.fsprojResolveAssemblyReference.cache
+C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls.Tests\obj\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.Tests.fsprojAssemblyReference.cache
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls.Tests\obj\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.Tests.fsproj.CopyComplete
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls.Tests\obj\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.Tests.dll
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls.Tests\obj\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.Tests.xml

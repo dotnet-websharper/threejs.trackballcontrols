@@ -12,7 +12,7 @@ C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.Trackbal
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\bin\Release\net461\WebSharper.Sitelets.dll
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\bin\Release\net461\WebSharper.Web.dll
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\bin\Release\net461\WebSharper.ThreeJs.dll
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\obj\Release\net461\WebSharper.ThreeJs.TrackballControls.fsprojResolveAssemblyReference.cache
+C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\obj\Release\net461\WebSharper.ThreeJs.TrackballControls.fsprojAssemblyReference.cache
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\obj\Release\net461\WebSharper.ThreeJs.TrackballControls.fsproj.CopyComplete
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\obj\Release\net461\WebSharper.ThreeJs.TrackballControls.dll
 C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\obj\Release\net461\WebSharper.ThreeJs.TrackballControls.xml
