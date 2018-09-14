@@ -1,8 +1,0 @@
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\bin\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.deps.json
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\bin\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.dll
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\bin\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.pdb
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\bin\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.xml
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\obj\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.fsprojAssemblyReference.cache
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\obj\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.dll
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\obj\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.xml
-C:\Jenkins\workspace\zafir.threejs.trackballcontrols\WebSharper.ThreeJs.TrackballControls\obj\Release\netstandard2.0\WebSharper.ThreeJs.TrackballControls.pdb
