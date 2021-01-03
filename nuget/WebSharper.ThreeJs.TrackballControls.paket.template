@@ -16,5 +16,5 @@ files
     ../WebSharper.ThreeJs.TrackballControls/bin/Release/netstandard2.0/WebSharper.ThreeJs.TrackballControls.dll ==> lib/netstandard2.0
     ../WebSharper.ThreeJs.TrackballControls/bin/Release/netstandard2.0/WebSharper.ThreeJs.TrackballControls.xml ==> lib/netstandard2.0
 dependencies
-        WebSharper ~> LOCKEDVERSION/3
-        WebSharper.ThreeJs ~> LOCKEDVERSION/3
+        WebSharper ~> LOCKEDVERSION:[3]
+        WebSharper.ThreeJs ~> LOCKEDVERSION:[3]
